@@ -1,11 +1,15 @@
-
-
+import React from 'react'
+import Chai from './chai'
 
 function App() {
-
+  const username = "chai aur code"
   return (
-    <h1> Chai aur react with vite / jitendra</h1>
+    <>
+    <Chai />
+    <h1>Chai made by jeet {username}</h1>
+    </>
   )
 }
 
 export default App
+ 
